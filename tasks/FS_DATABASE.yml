@@ -22,8 +22,3 @@
       src: "/dev/{{ VG_Name }}/{{ LV_DATABASES }}"
       fstype: "xfs"
       state: "mounted"
-
-
-
-
-

@@ -22,9 +22,3 @@
       src: "/dev/{{ VG_Name }}/{{ LV_CONFIG }}"
       fstype: "xfs"
       state: "mounted"
-
-
-
-
-
-

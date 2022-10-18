@@ -22,4 +22,3 @@
       src: /dev/{{ VG_Name }}/{{ LV_TMP }}
       fstype: "xfs"
       state: "mounted"
-

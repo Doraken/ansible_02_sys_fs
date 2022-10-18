@@ -29,5 +29,3 @@
 
 - name: "system_02_file_system | Move originale data from {{ LV_LOG_MNT }}.old to {{ LV_LOG_MNT }}" 
   command: "mv {{ LV_LOG_MNT }}.old/* {{ LV_LOG_MNT }}/"
-
-

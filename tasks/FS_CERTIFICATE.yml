@@ -22,4 +22,3 @@
       src: "/dev/{{ VG_Name }}/{{ LV_CERTIFICATES }}"
       fstype: "xfs"
       state: "mounted"
-
