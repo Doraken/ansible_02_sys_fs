@@ -5,7 +5,7 @@ galaxy_info:
   company: "none"
   license: MIT
   min_ansible_version: 1.0
-  role_name: ansible_users
+  role_name: sys_02_fs
   namespace: doraken
 
   platforms:
