@@ -20,17 +20,3 @@
 
 - name: "system_02_file_system | Move originale data from {{ LV_HOME_MNT }}.old to {{ LV_HOME_MNT }}" 
   command: "cp -Rp {{ LV_HOME_MNT }}/* /mnt/"
-
-- name: "system_02_file_system | mount the lv {{ LV_HOME }} on {{ LV_HOME_MNT }}"
-  mount:
-      path: "/mnt"
-      src: "/dev/{{ VG_Name }}/{{ LV_HOME }}"
-      fstype: "xfs"
-      state: "unmounted"
-
-- name: "system_02_file_system | mount the lv {{ LV_HOME }} on {{ LV_HOME_MNT }}"
-  mount:
-      path: "/home"
-      src: "/dev/{{ VG_Name }}/{{ LV_HOME }}"
-      fstype: "xfs"
-      state: "mounted"
